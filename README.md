@@ -34,7 +34,7 @@ First time with Foundry? Check out the [installation guide](https://github.com/f
 For use within a monorepo (e.g., with [Turborepo](https://turbo.build/repo/docs)):
 
 ```sh
-$ forge init --template ignio-labs/foundry-template packages/my-project --no-git
+$ forge init --template ignio-labs/foundry-template packages/my-project --no-git --use-parent-git
 $ cd packages/my-project
 $ bun install
 ```
